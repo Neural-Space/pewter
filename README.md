@@ -49,8 +49,10 @@ The following are the functions of the buttons available,<br/>
         
 ![alt tag](https://sigvoiced.files.wordpress.com/2016/07/screenshot-51.png)
 
-####Where and how is the data saved?
+####Where is the data saved?
 The data is saved inside the '**experimentdata**' directory inside the root directory of the project.
+
+####What is the data format?
 The data is saved in json format. The following is the structure of a sample experiment data.
 
 ```json
@@ -112,6 +114,13 @@ The data is saved in json format. The following is the structure of a sample exp
   }
 }
 ```
+<br/>
+| Key         |   Value       |
+| ------------- |:-------------:|
+| emg.data[0]     | sensor data for EMG POD 0 |
+| emg.data[0]     | sensor data for EMG POD 0 |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
 
 ###Visualisation
 
