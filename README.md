@@ -114,13 +114,10 @@ The data is saved in json format. The following is the structure of a sample exp
   }
 }
 ```
-<br/>
-| Key         |   Value       |
-| ------------- |:-------------:|
-| emg.data[0]     | sensor data for EMG POD 0 |
-| emg.data[0]     | sensor data for EMG POD 0 |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 ###Visualisation
 
