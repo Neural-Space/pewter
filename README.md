@@ -1,10 +1,10 @@
 ![alt tag](https://sigvoiced.files.wordpress.com/2016/07/pewter.png)
 # Pewter
 
-**Pewter** is an open-source project for
-        1. Data acquisition
-        2. Analysis
-        3. Visualisation
+**Pewter** is an open-source project for <br/>
+        **1. Data acquisition**<br/>
+        **2. Analysis**<br/>
+        **3. Visualisation <br/>**
 of raw data from Myo and conduct experiments on it. If you are working on raw data from the Myo Armband, then you can make use of **Pewter's** simple GUI to acquire data and work on it. It not only reduces devlopement time but also makes the life of a machine learning engineer easier. You can create experiments and visualise the data for doing some analysis before preprocessing and feature extraction. All the experiment data will be saved in Json format which makes it even convenient for reuse. The entire project is created using Node.js and I thank [Thalmiclabs](https://www.thalmic.com/) for the [myo.js](https://github.com/thalmiclabs/myo.js) library which made my life a lot more simpler.
 
 **Pewter** was originally developed by me for data acquisition and analysis of raw data from Myo Armband for one of my projects **[Voice](https://github.com/sigvoiced/Voice)**.
@@ -37,13 +37,13 @@ http://localhost:3000
 
 #How to use Pewter
 Using **Pewter** is extremely simple. Follow the annotations on the images below and you will be able to kick off in a few minutes.
-###Data Acquisition
-The following are the functions of the buttons available,
-1. **Play**: Starts recording data.
-2. **Pause**: Pauses recording data.
-3. **Undo**: Undos the recording.
-4. **save**: Saves the experiment data.
-5. **Visualizations****: Redirects to the visualization page.
+###Data Acquisition<br/>
+The following are the functions of the buttons available,<br/>
+1. **Play**: Starts recording data.<br/>
+2. **Pause**: Pauses recording data.<br/>
+3. **Undo**: Undos the recording.<br/>
+4. **save**: Saves the experiment data.<br/>
+5. **Visualizations****: Redirects to the visualization page.<br/>
 
 ***Please give an 'Experiment Name' before saving data.***
         
