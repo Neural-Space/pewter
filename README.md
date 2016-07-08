@@ -114,10 +114,49 @@ The data is saved in json format. The following is the structure of a sample exp
   }
 }
 ```
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+<br/>
+
+#####For EMG
+
+Key | Value (Data from sensor)
+--- | --- 
+emg.data[0][0] | EMG POD 0
+emg.data[0][1] | EMG POD 1
+emg.data[0][2] | EMG POD 2
+emg.data[0][3] | EMG POD 3
+emg.data[0][4] | EMG POD 4
+emg.data[0][5] | EMG POD 5
+emg.data[0][6] | EMG POD 6
+emg.data[0][7] | EMG POD 7
+emg.timestamps[0] | Timestamp for emg.data[0]
+
+#####For Accelerometer
+
+Key | Value 
+--- | --- 
+acc.data[0][0] | Accelerometer_x
+acc.data[0][1] | Accelerometer_y
+acc.data[0][2] | Accelerometer_z
+acc.timestamps[0] | Timestamp for acc.data[0]
+
+#####For Gyroscope
+
+Key | Value 
+--- | --- 
+gyr.data[0][0] | Gyroscope_x
+gyr.data[0][1] | Gyroscope_y
+gyr.data[0][2] | Gyroscope_z
+gyr.timestamps[0] | Timestamp for gyr.data[0]
+
+#####For Orientation
+
+Key | Value 
+--- | --- 
+ori.data[0][0] | Orientation_x
+ori.data[0][1] | Orientation_y
+ori.data[0][2] | Orientation_z
+ori.data[0][3] | Orientation_w
+ori.timestamps[0] | Timestamp for ori.data[0]
 
 ###Visualisation
 
