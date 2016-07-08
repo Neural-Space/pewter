@@ -11,6 +11,10 @@ of raw data from Myo and conduct experiments on it. If you are working on raw da
 
 I would be glad if you could contribute in this initiative of mine to help other developers working on Myo Armbands and making their lives easier.
 
+<br/>
+
+Feel free to give any suggestions or report bugs in the issues tab.
+
 #Prerequisites
 1. [Node.js](https://nodejs.org/en/)
 
@@ -159,7 +163,13 @@ ori.data[0][3] | Orientation_w
 ori.timestamps[0] | Timestamp for ori.data[0]
 
 ###Visualisation
+The visualisation page is even simpler. You can select an experiment from the experiment selection dropdown list. The graphs correspond to all the avaiable sensor data that Myo Armband provides. For visualisation I have used [Ploty.js](https://plot.ly/javascript/). I would like to thank them for the awesome work that they have done.
 
+![alt tag](https://sigvoiced.files.wordpress.com/2016/07/screenshot-53.png)
+
+#For more information
+1.[Sigvoiced](https://sigvoiced.wordpress.com/)
+2.[Myo.js](https://github.com/thalmiclabs/myo.js)
 
 
 
