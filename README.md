@@ -1,2 +1,3 @@
-# pewter
-Data acquisition and visualization tool for Myo Armband
+![alt tag](https://sigvoiced.files.wordpress.com/2016/07/voice-logo.png)
+# Voice
+
