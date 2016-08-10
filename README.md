@@ -1,10 +1,10 @@
 ![alt tag](https://sigvoiced.files.wordpress.com/2016/07/pewter.png)
 # Pewter
 
-**Pewter** is an open-source project for <br/>
+**Pewter** is an open-source project for <br/><br/>
         **1. Data acquisition**<br/>
         **2. Analysis**<br/>
-        **3. Visualisation <br/>**
+        **3. Visualisation <br/>**<br/>
 of raw data from Myo and conduct experiments on it. If you are working on raw data from the Myo Armband, then you can make use of **Pewter's** simple GUI to acquire data and work on it. It not only reduces devlopement time but also makes the life of a machine learning engineer easier. You can create experiments and visualise the data for doing some analysis before preprocessing and feature extraction. All the experiment data will be saved in Json format which makes it even convenient for reuse. The entire project is created using Node.js and I thank [Thalmiclabs](https://www.thalmic.com/) for the [myo.js](https://github.com/thalmiclabs/myo.js) library which made my life a lot more simpler.
 
 **Pewter** was originally developed by me for data acquisition and analysis of raw data from Myo Armband for one of my projects **[Voice](https://github.com/sigvoiced/Voice)**.
@@ -16,16 +16,21 @@ I would be glad if you could contribute in this initiative of mine to help other
 Feel free to give any suggestions or report bugs in the issues tab.
 
 #Prerequisites
-1. [Node.js](https://nodejs.org/en/)
+1. Windows Operating System
+2. [Node.js](https://nodejs.org/en/)
+3. [Myo Connect for windows](https://www.myo.com/start)
+4. Myo Armband
 
 #Installation
-1. Install dependencies : Enter the following command inside the **pewter** folder that you have cloned
+###Install dependencies
+Enter the following command inside the **pewter** folder that you have cloned
 ```
 npm install
 ```
 ![alt tag](https://sigvoiced.files.wordpress.com/2016/07/screenshot-49.png)
 
-2. Run Pewter : Enter the following command in the **pewter** directory to start **pewter** 
+###Run Pewter
+Enter the following command in the **pewter** directory to start **pewter** 
 ```
 node app.js
 ```
@@ -33,7 +38,8 @@ node app.js
 
 **The app by default listens to port 3000. To change it to any other port update the listener in the the app.js file and restart.**
 
-3. Start Using Pewter : Open any browser and open the following link to start **Pewter**.
+###Start Using Pewter
+Open any browser and open the following link to start **Pewter**. Make sure to run MyoConnect before opening the page or else you will not see any data.
 ```
 http://localhost:3000
 ```
@@ -168,8 +174,8 @@ The visualisation page is even simpler. You can select an experiment from the ex
 ![alt tag](https://sigvoiced.files.wordpress.com/2016/07/screenshot-53.png)
 
 #For more information
-1.[Sigvoiced](https://sigvoiced.wordpress.com/)
-2.[Myo.js](https://github.com/thalmiclabs/myo.js)
+1. [Sigvoiced](https://sigvoiced.wordpress.com/)
+2. [Myo.js](https://github.com/thalmiclabs/myo.js)
 
 
 
